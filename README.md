@@ -22,9 +22,7 @@ Main Folder
 ├───launcher.py
 ├───parser.py
 └───CollectionCSVtoDB
-    ├───CollectionCSVtoDB.dll
-    ├───CollectionCSVtoDB.exe
-    └───CollectionCSVtoDB.runtimeconfig.json
+    └───CollectionCSVtoDB.exe
 ```
 
 osuSkills.exe is built from a fork of the [osuSkills Console App Branch](https://github.com/Kuuuube/osuSkills/tree/console_app) using:
@@ -32,4 +30,8 @@ osuSkills.exe is built from a fork of the [osuSkills Console App Branch](https:/
 g++ -std=c++11 *.cpp -O2 -o osuSkills.exe
 ```
 
-CollectionCSVtoDB must be built to an executable as well.
+CollectionCSVtoDB is built from [osu_CollectionCSVtoDB](https://github.com/Kuuuube/osu_CollectionCSVtoDB) using:
+```
+$options= @('--configuration', 'Release', '-p:PublishSingleFile=true', '-p:DebugType=embedded', '--self-contained', 'false')
+dotnet publish CollectionCSVtoDB $options --runtime win-x64 --framework net6.0 -o build/win-x64
+```
