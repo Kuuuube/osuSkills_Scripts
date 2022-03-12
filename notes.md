@@ -22,12 +22,14 @@
 ## parser.py 
 (parses the output of launcher.py after some minor manual fixing)
 
-Fixing launcher.py output: (I was too lazy to automate this with another script)
+Fixing launcher.py output: (an automated script to do this will probably be made eventually)
 1. Take the output of launcher.py in the calculations folder and run in cmd (for windows) `copy *.txt temp`
-2. Take temp and copy all matches of the following regex: `Stamina: .*?\)`
-3. Paste the copied matches into a file named osuskills_calculations_full.txt (make sure each match is pasted to a new line)
+2. (Optional) It is recommended to take temp and copy all matches of the following regex: `Stamina: .*`. This will remove invalid map calculations which should speed up and cut down on errors in `parser.py`.
+3. (Optional) Paste the copied matches into a file named `osuskills_calculations_full.txt` (make sure each match is separated by a new line)
 
 Using parser.py:
 1. Run parser.py
 2. Go through the cli
 3. The output collection will be in a folder in the parsed_files folder
+
+Note: When adding large amounts of filters the collection names can get too long for osu! to recognize. Changing the name of the MD5 list to something shorter and running it through CollectionCSVtoDB manually can fix this.
