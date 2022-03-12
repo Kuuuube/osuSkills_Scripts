@@ -36,7 +36,7 @@ osuSkills.exe is built from a fork of the [osuSkills Console App Branch](https:/
 g++ -std=c++11 *.cpp -O2 -o osuSkills.exe
 ```
 
-CollectionCSVtoDB is built from [osu_CollectionCSVtoDB](https://github.com/Kuuuube/osu_CollectionCSVtoDB) using:
+CollectionCSVtoDB is built from [osu! CollectionCSVtoDB](https://github.com/Kuuuube/osu_CollectionCSVtoDB) using:
 ```
 $options= @('--configuration', 'Release', '-p:PublishSingleFile=true', '-p:DebugType=embedded', '--self-contained', 'false')
 dotnet publish CollectionCSVtoDB $options --runtime win-x64 --framework net6.0 -o build/win-x64
