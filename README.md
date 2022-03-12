@@ -10,6 +10,12 @@ See: [notes](https://github.com/Kuuuube/osuSkills_Scripts/blob/main/notes.md) fo
 
 I have included calculations for NM, DT, and HR done on my songs folder into the [Releases](https://github.com/Kuuuube/osuSkills_Scripts/releases).
 
+## Dependencies
+
+Python 3: https://www.python.org/downloads/
+
+.Net Runtime 6.0 x64: https://dotnet.microsoft.com/en-us/download/dotnet/6.0
+
 <br>
 
 ## Manual building and setup instructions:
