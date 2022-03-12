@@ -163,8 +163,7 @@ with open ("osuskills_calculations_full.txt", "r", encoding="UTF-8") as osuskill
 
                 with open (str(foldername) + "\\" + str(filename_stripped_mod), 'a') as md5_file:
                     md5_regex = re.search("\w{32}",element)
-                    md5_file.write(",," + md5_regex.group(0))
-                    md5_file.write("\n")
+                    md5_file.write(md5_regex.group(0) + "\n")
 
 file_list = os.listdir(foldername)
 for element in file_list:
