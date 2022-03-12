@@ -69,7 +69,7 @@ with open ("osuskills_calculations_full.txt", "r", encoding="UTF-8") as osuskill
             filter_check = 0
             filename = ""
             
-            mod = re.search("(?<=Mod: )\w+", element)
+            mod = re.search("(?<=Mod: )(\w| )+", element)
             if mod is not None:
                 filename_stripped_mod = filename_stripped + "_" + mod.group(0)
             else:

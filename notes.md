@@ -9,7 +9,7 @@
     If you run into issues with "bad escaping" or regex errors you likely need to change the slashes or add more slashes.
 
 2. Take generated filelist.txt and move it to this folder
-3. (Optional) Use regex to add a mod. Replace: `(?= |)` with the desired mod. Only single mods are supported and make sure to have a + infront of the mod. For example: +HD not HD.
+3. (Optional) Use regex to add a mod. Replace: `(?= |)` with the desired mod. Mods should be separated by a space. For example: `HD DT`
 
 ## launcher.py 
 (runs filelist.txt maps through osuSkills.exe)
