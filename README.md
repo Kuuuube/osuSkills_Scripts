@@ -27,7 +27,7 @@ Main Folder
     └───CollectionCSVtoDB.runtimeconfig.json
 ```
 
-osuSkills.exe is built from the [osuSkills Console App Branch](https://github.com/Kert/osuSkills/tree/console_app) using:
+osuSkills.exe is built from a fork of the [osuSkills Console App Branch](https://github.com/Kuuuube/osuSkills/tree/console_app) using:
 ```
 g++ -std=c++11 *.cpp -O2 -o osuSkills.exe
 ```
