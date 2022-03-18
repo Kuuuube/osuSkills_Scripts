@@ -4,9 +4,9 @@ Jank scripts for automated calculation of osuSkills stats on maps.
 
 ## Downloads
 
-Downloads with prebuilt binaries are in [Releases](https://github.com/Kuuuube/osuSkills_Scripts/releases)
+Downloads with prebuilt binaries are available in [Releases](https://github.com/Kuuuube/osuSkills_Scripts/releases) as `osuSkills_Scripts_{version}.zip`.
 
-Pre-done calculations for NM, DT, and HR done on my songs folder (170k maps) are available in [Releases](https://github.com/Kuuuube/osuSkills_Scripts/releases).
+Pre-done calculations for NM, DT, and HR from my songs folder (170k maps) are available in [Releases](https://github.com/Kuuuube/osuSkills_Scripts/releases) as `osuskills_calculations_full.7z`.
 
 ## Usage
 
