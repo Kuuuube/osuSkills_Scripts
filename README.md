@@ -1,3 +1,5 @@
+# This has been deprecated. Use [osu!Skills rs](https://github.com/Kuuuube/osu_skills_rs) instead.
+
 # osuSkills Scripts
 
 Jank scripts for automated calculation of osuSkills stats on maps.
